@@ -1,0 +1,8 @@
+{% block title %}Triangulr{% endblock %}
+
+
+{% block main %}
+<p>Hello</p>
+<p>file: {{ filename }}</p>
+<img src="{{ url_for('static', filename='uploads/' + filename) }}"></img>
+{% endblock %}
