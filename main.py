@@ -4,7 +4,7 @@ from werkzeug import secure_filename
 import scipy
 import scipy.misc
 
-import triangulr
+import triangulr2 as triangulr
 
 Debug = True
 
